@@ -4,7 +4,17 @@
 int main()
 
 {
-  return 0;
+  
+int p,t;
+float r,si;
+printf("enter the amount in rupees");
+scanf("%f",&r);
+printf("enter time in years and rate of intrest");
+scanf("%d %d",&t,&p);
+si = (p*r*t)/100;
+printf("simple intrest is %f",si);
+return 0;
+
 }
 
 // first lab--------------------------------------------------------------------------------------------------------->
@@ -126,3 +136,26 @@ int main()
 //   }
 
 //----------------------------------------------------------------------------------------------------------------------------->
+//  <=============================== to make the table code ===========================================>
+  // int a, b ;
+  //  printf("enter any number you want to see table :");
+  //  scanf("%d",&a);
+  //  printf("enter any number to were your table stop :");
+  //  scanf("%d",&b);
+
+  // for (int i = 0; i <=b; i++)
+  // {
+  //   printf("%d \n",a*i);
+  // }
+// ----------------------------------------------------------------------------------------------------------------------->
+// int number;  
+// printf("Enter a number:");  
+// scanf("%d",&number);  
+// if(number%2==0){  
+// printf("%d is even number",number);  
+// }
+// if (number & 1)
+// {
+// printf("%d is odd numder",number);
+  
+// }
